@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Informações</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Cadastrar</h2>
+        <form id="form" class="form"></form>
+        <div class="form-control">
+            <label for="cliente">Cliente</label>
+            <input type="text" id="cliente" placeholder="Nome do cliente">
+        </div>
+
+        <div class="form-control">
+            <label for="container">Container</label>
+            <input type="text" id="container" placeholder="Nome do container">
+        </div>
+
+        <div class="form-control">
+            <label for="tipo">Tipo</label>
+            <select>
+                <option selected disabled value="">Selecione</option>
+                <option value="20">20</option>
+                <option value="40">40</option>
+            </select>
+        </div>
+        <div class="form-control">
+            <label for="status">Status</label>
+            <select>
+                <option selected disabled value="">Selecione</option>
+                <option value="cheio">Cheio</option>
+                <option value="vazio">Vazio</option>
+            </select>
+        </div>
+        <div class="form-control">
+            <label for="categoria">Categoria</label>
+            <select>
+                <option selected disabled value="">Selecione</option>
+                <option value="exportacao">Exportação</option>
+                <option value="importacao">Importação</option>
+            </select>
+        </div>
+        <div class="form-control">
+            <label for="movimentacao">Movimentação</label>
+            <select>
+                <option selected disabled value="">Selecione</option>
+                <option value="embarque">Embarque</option>
+                <option value="descarga">Descarga</option>
+                <option value="gate in">Gate in</option>
+                <option value="gate out">Gate out</option>
+                <option value="reposicionamento">Reposicionamento</option>
+                <option value="pesagem">Pesagem</option>
+                <option value="scanner">Scanner</option>
+            </select>
+        </div>
+        <div class="form-control">
+            <label >Data</label>
+            <input type="date">
+        </div>
+        <div class="form-control">
+            <label>Hora do início</label>
+            <input type="time">
+        </div>
+
+        <div class="form-control">
+            <label>Hora do término</label>
+            <input type="time">
+        </div>
+        <div class="form-control">
+            <button type="submit">Inserir</button>
+        </div>
+        
+    </div>
+</body>
+</html>
